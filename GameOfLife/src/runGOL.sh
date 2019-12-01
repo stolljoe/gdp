@@ -1,0 +1,6 @@
+#!/bin/sh
+echo javac ...
+javac -cp ".:stdlib.jar" GameOfLife.java 
+echo java ...
+java -cp ".:stdlib.jar" GameOfLife < GOLMoving.conf 
+
